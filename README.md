@@ -1,11 +1,11 @@
 # Lab: Exploring firewalld Zones — Catalog and Compare Trust Models
 
-**Series:** linux-ops-mastery — RHCSA Firewall
-**Subjects covered:** Zone abstraction, `firewall-cmd --get-zones`, `--get-default-zone`, `--list-all-zones`, `--info-zone=ZONE`, trust defaults (`public`, `home`, `internal`, `trusted`, `drop`), runtime vs permanent vocabulary (introduced; persistence in later labs)
-**Career arcs covered:** RHCSA (zone selection is a common EX200 theme), RHCE (Ansible `firewalld` zone parameters), SRE (multi-homed trust boundaries), DevOps (golden images ship `public` by default), AI/MLOps (segmenting admin vs data planes)
-**Prerequisite:** `systemctl` basics; this lab is conceptual cataloging — not yet changing defaults
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 service health · 2–3 enumerate and compare zones · 4 deep `info-zone` inspection · 5 edge: services vs ports lists · 6 capstone matrix + cleanup
+- **Series:** linux-ops-mastery — RHCSA Firewall
+- **Subjects covered:** Zone abstraction, `firewall-cmd --get-zones`, `--get-default-zone`, `--list-all-zones`, `--info-zone=ZONE`, trust defaults (`public`, `home`, `internal`, `trusted`, `drop`), runtime vs permanent vocabulary (introduced; persistence in later labs)
+- **Career arcs covered:** RHCSA (zone selection is a common EX200 theme), RHCE (Ansible `firewalld` zone parameters), SRE (multi-homed trust boundaries), DevOps (golden images ship `public` by default), AI/MLOps (segmenting admin vs data planes)
+- **Prerequisite:** `systemctl` basics; this lab is conceptual cataloging — not yet changing defaults
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 service health · 2–3 enumerate and compare zones · 4 deep `info-zone` inspection · 5 edge: services vs ports lists · 6 capstone matrix + cleanup
 
 ---
 
